@@ -1,14 +1,11 @@
 import React from 'react';
+import Burger from '../../Components/Burger/Burger';
 
 const BurgerBuilder = () => {
   return (
     <>
-      <div>
-        Burger
-      </div>
-      <div>
-        Burger Control
-      </div>
+      <Burger />
+
     </>
   );
 };
