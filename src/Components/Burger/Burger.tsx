@@ -7,6 +7,9 @@ const Burger = () => {
     <div className={styles.BurgerWrapper}>
       <BurgerIngredient type='bread-top' />
       <BurgerIngredient type='cheese' />
+      <BurgerIngredient type='bacon' />
+      <BurgerIngredient type='meat' />
+      <BurgerIngredient type='bread-middle' />
       <BurgerIngredient type='meat' />
       <BurgerIngredient type='bread-bottom' />
     </div>

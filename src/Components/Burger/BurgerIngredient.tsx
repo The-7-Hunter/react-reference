@@ -12,6 +12,10 @@ const BurgerIngredient:FC <IProps> = ({type}) => {
       ingredient = <div className={styles.BreadBottom}></div>;
       break;
 
+    case ('bread-middle'):
+      ingredient = <div className={styles.BreadMiddle}></div>;
+      break;
+
     case ('bread-top'):
       ingredient = (
         <div className={styles.BreadTop}>
